@@ -1,0 +1,128 @@
+one:	"Welcome to Coding Across Borders level one! Enter your name below to begin."
+
+two: "Throughout this course, you will learn a little about some of the concepts used to create programs like the one you're using right now."
+
+three: "In order to complete this program, you will be asked to respond using the controls below."
+
+four: "Periodically, you will be asked to try it yourself. To do this, click on the image of the Coding Across Borders Try It Yourself Editor in the top left corner (go ahead and open this now). "
+
+five: "Hi! This is Coding Across Borders level one. Here, you will get your feet wet in a prgramming language known as 'Python'."
+
+six: "Python is an object-oriented language that is used to make things like video-games."
+
+seven: "By the end of this course, you will be able to create a really cool program with turtle!"
+
+eight: "In order to start, we must first tell the computer to get the turtle. Do this by typing the line 'import turtle' without quotes in the first line of the Try It Yourself editor."
+
+nine: "Import tells Python to get some code to do a specific things. Another example we'll get to later in this level is 'math'."
+
+ten: "What does 'import' do in Python?"
+
+eleven: "Correct! Import is useful for so many different things."
+
+twelve: "Incorrect!"
+
+thirteen: "Now we have a turtle, but he has no home! Let's make him a nice home."
+
+fourteen: "In order to give the turtle a home, we need to make a variable for it. A variable is something that stores something else. An example is 'age = 10'. In this case, age is a variable, and 10 is what it represents."
+
+fifteen: "What does a variable do?"
+
+sixteen: "Correct! Python does a great job at helping us store things that we can use over and over again."
+
+seventeen: "Incorrect! Try again."
+
+eighteen: "We're going to create a home for the turtle by saving the portion of the screen that will become the 'house' for the turtle as a variable."
+
+nineteen: "As a good coding practise, always name the variables you use after what they're there for."
+
+twenty: "Since the home for the turtle will be essentially a window, let's name the variable that will store the home 'window'."
+
+twentyone: "Let's do this by declaring the variable like so: 'window = turtle.Screen()' - make sure to put this on a new line."
+
+twentytwo: "Notice that we make a new window by getting the 'Screen' portion of turtle. The period lets Python know that  we are getting a certain method in the turtle class."
+
+twentythree: "A class is like a bunch of code that does a specific thing, and a method is just getting a small portion of that library to do an even more specific task."
+
+twentyfour: "What does the period operator do in Python?"
+
+twentyfive: "Correct! We'll explore classes and methods more in this module."
+
+twentysix: "Incorrect! Try again pal!"
+
+twentyseven: "Now we can access the turtle, and we've defined a home, all we need to do is to name the turtle and teach it some cool tricks!"
+
+twentyeight: "To name the turtle, we need to name a variable with the same name as the name that you wish for your turtle."
+
+twentynine: "Name the turtle like this: 'name = turtle.Turtle()' where you replace 'name' with the name that you want for your turtle. I'll name mine turtle."
+
+thirty: "In the previous slide, we accessed the turtle class, specifically the Turtle method in order to create a new turtle, which is now stored inside a variable in which you named the turtle. I named mine turtle, so I'll continue to refer to my turtle as turtle."
+
+thirtyone: "At this point in the program, you should have an import declaration, a screen declaration, and a turtle declaration. If you do not, you should back up now in the program and fix what you don't have."
+
+thirtytwo: "Now that we have all we need, let's style the game a bit to make it look better."
+
+thirtythree: "First, let's color our screen."
+
+thirtyfour: "Remember that the name of the variable that holds our screen is named 'window', so to color it, let's access the bgcolor method of the variable 'window', do this by writing the line 'window.bgcolor('color')'"
+
+thirtyfive: "Make the color anything that you want. I'll make the home for my turtle light blue by writing the line 'window.bgcolor('lightblue')'. Click Run after to see the results."
+
+thirtysix: "How do you define the color of a screen in Python turtle?"
+
+thirtyseven: "Incorrect! Try again pal!"
+
+thirtyeight: "Correct! You're really going places!"
+
+thirtynine: "Now we have a nice home for the turtle, but we need to give the turtle itself some color!"
+
+fourty: "To add color to the turtle, we need to access the color method of the turtle. How do you think this is done?"
+
+fourtyone: "The right way to set the color of the turtle is to write name.color('color') to a new line, where you replace 'name with the name of the turtle and 'color' with whichever color you want."
+
+fourtytwo: "Now, we need to tell the turtle how big to be."
+
+fourtythree: "To do this, we need to access the pensize method of the turtle variable. How do we do that?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

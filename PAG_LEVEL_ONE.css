@@ -1,0 +1,134 @@
+body {
+	/*When background-image is in use, color only affects words. Otherwise, color affects the bakground.*/
+	/*ALL TEXT IS AFFECTED*/
+	color: #ffff19;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+	background-image: url("Night Sky.jpg");
+	background-repeat: no-repeat;
+	font-size: 1em;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.title {
+	position: absolute;
+	bottom: 0;
+	right: 16px;
+	width: 2px;
+	text-align: right;
+	font-size: 5px;
+	text-shadow: none
+}
+
+.consImg {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	/*bottom: -25; */
+	top: -25;
+	left: 0;
+	align-content: right;
+}
+
+#images {
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1em;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 1em;
+	margin-top: 15px;
+}
+
+#buttonBox {
+	text-align: center;
+}
+
+button {
+	background-color: #44c767;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #18ab29;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+}
+
+button:hover {
+	background-color: #5cbf2a;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+.loader {
+	border: 16px solid #f3f3f3;
+	/* Light grey */
+	border-top: 16px solid #3498db;
+	/* Blue */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loader {
+	-webkit-animation: load-out 1s;
+	animation: load-out 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	position: fixed;
+	background-color: #FFF;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: auto;
+	z-index: 10;
+}
+
+@-webkit-keyframes load-out {
+	from {
+		top: 0;
+		opacity: 1;
+	}
+	to {
+		top: 100%;
+		opacity: 0;
+	}
+}
+
+@keyframes load-out {
+	from {
+		top: 0;
+		opacity: 1;
+	}
+	to {
+		top: 100%;
+		opacity: 0;
+	}
+}
+
+a//
